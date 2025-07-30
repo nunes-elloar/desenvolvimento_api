@@ -1,0 +1,9 @@
+api Cadastro de Aluno
+paylod{id, ra, nome, email, created_at, updated_at}
+id: AUTO_INCREMENTE e PRIMARY KEY
+ra: UNICO E NÃO NULO
+nome: min 2 caracteres
+email: Validação para email e UNICO
+-> Listar todos, Cadastrar, Listar um, atualizar e excluir
+PRIMEIRO COMANDO: npm init -y
+Ferramentas: express, cors, sequelize, mysql2 | nodemon

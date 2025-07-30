@@ -1,0 +1,10 @@
+GET http://localhost:3333/setores
+
+### POST /tarefas
+POST http://localhost:3333/setores
+content-type: application/json
+
+{
+    "nome": "Teste",
+    
+}
